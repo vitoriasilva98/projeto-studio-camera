@@ -1,0 +1,27 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+header {
+    background-color: #0a0c0d;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover  {
+    color: white;
+}
+
+.titulo-destaque {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+}
+
+.navbar-toggler{
+    background-color: white;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #1c31a5;
+    color: #f2f2f2;
+}
