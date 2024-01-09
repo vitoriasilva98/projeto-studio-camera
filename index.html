@@ -28,25 +28,25 @@
             <nav class="navbar-collapse collapse justify-content-end mt-sm-2 mt-md-4 mt-lg-0 mt-4" id="menu-principal">
                 <ul class="nav nav-pills d-block d-md-flex">
                     <li class="nav-item fw-bold">
-                        <a href="#" class="nav-link active">
+                        <a href="#sobre-o-studio" class="nav-link active">
                             <i class="bi bi-house me-1"></i>
                             Sobre
                         </a>
                     </li>
                     <li class="nav-item fw-bold">
-                        <a href="#" class="nav-link">
+                        <a href="#tipo" class="nav-link">
                             <i class="bi bi-camera me-1"></i>
                             Tipos de fotografia
                         </a>
                     </li>
                     <li class="nav-item fw-bold">
-                        <a href="#" class="nav-link">
+                        <a href="#ensaios" class="nav-link">
                             <i class="bi bi-images me-1"></i>
                             Ensaios
                         </a>
                     </li>
                     <li class="nav-item fw-bold">
-                        <a href="#" class="nav-link">
+                        <a href="#contato" class="nav-link">
                             <i class="bi bi-megaphone me-1"></i>
                             Entre em contato
                         </a>
@@ -55,6 +55,82 @@
             </nav>
         </div>
     </header>
+    <div id="cabecalho" data-bs-spy="scrool" data-bs-smooth-scroll="true">
+        <section id="sobre-o-studio">
+
+            <!--Carousel-->
+            <div class="carousel carousel-fade slide" data-bs-ride="carousel" id="carousel-inicial">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-internal="3000">
+                        <img src="/imgs/slide-inicial/dog-md.jpg" class="d-block d-md-none w-100" alt="">
+                        <img src="/imgs/slide-inicial/dog-lg.jpg" class="d-none d-md-block w-100" alt="">
+                        <div class="carousel-caption">
+                            <h2>Ensaio do Costelinha</h2>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item" data-bs-internal="3000">
+                        <img src="/imgs/slide-inicial/amigos-md.jpg" class="d-block d-md-none w-100" alt="">
+                        <img src="/imgs/slide-inicial/amigos-lg.jpg" class="d-none d-md-block w-100" alt="">
+                        <div class="carousel-caption">
+                            <h2>Ensaio dia de sol</h2>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item" data-bs-internal="3000">
+                        <img src="/imgs/slide-inicial/casamento-md.jpg" class="d-block d-md-none w-100" alt="">
+                        <img src="/imgs/slide-inicial/casamento-lg.jpg" class="d-none d-md-block w-100" alt="">
+                        <div class="carousel-caption">
+                            <h2>Ensaio casamento na praia</h2>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="carousel-control-prev" data-bs-target="#carousel-inicial"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button type="button" class="carousel-control-next" data-bs-target="#carousel-inicial"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel-inicial" data-bs-slide-to="0"
+                        class="active"></button>
+                    <button type="button" data-bs-target="#carousel-inicial" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel-inicial" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+
+            <!-- Sobre -->
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="imgs/sobre/camera.jpg" class="d-bock w-100 rounded" alt="">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="titulo-destaque">Sobre <span class="titulo-setaque-colorido">o studio</span></h2>
+                            <p>O Studio Câmera é um estúdio de fotografia localizado na cidade de São Paulo, 
+                                com uma excelente reputação no mercado. Fundado em 2000, o estúdio é especializado 
+                                em fotografia de casamento, família, em PB (Preto & Branco), de pet e retratos.
+                            </p>
+                            <h3 class="titulo-destaque">Sobre <span class="titulo-setaque-colorido">a equipe</span></h3>
+                            <p>O Studio Câmera conta com uma equipe de profissionais experientes e qualificados, 
+                                que utilizam equipamentos de última geração para produzir imagens de alta qualidade, 
+                                o estúdio oferece uma variedade de serviços. Localizado em uma área central de São Paulo, 
+                                com fácil acesso. O estúdio possui um ambiente aconchegante e profissional, que proporciona 
+                                aos clientes uma experiência agradável e inesquecível.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção - Tipo de fotografia -->
+        <!-- Seção - Ensaios -->
+        <!-- Seção - Entre em contato -->
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>

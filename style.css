@@ -1,5 +1,6 @@
 body {
     font-family: 'Noto Sans', sans-serif;
+    background-color: #0a0c0d;
 }
 
 header {
@@ -17,6 +18,10 @@ header {
     font-weight: 700;
 }
 
+.titulo-setaque-colorido {
+    color: #1c31a5;
+}
+
 .navbar-toggler{
     background-color: white;
 }
@@ -25,3 +30,8 @@ header {
     background-color: #1c31a5;
     color: #f2f2f2;
 }
+
+#sobre-o-studio {
+    background-color: #f2f2f2;
+}
+
