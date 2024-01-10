@@ -18,8 +18,16 @@ header {
     font-weight: 700;
 }
 
-.titulo-setaque-colorido {
-    color: #1c31a5;
+.titulo-destaque-dark {
+    color: #f2f2f2;
+}
+
+.titulo-destaque-colorido {
+    color: #000524;
+}
+
+.titulo-destaque-colorido-dark {
+    color: #348e91;
 }
 
 .navbar-toggler{
@@ -33,5 +41,21 @@ header {
 
 #sobre-o-studio {
     background-color: #f2f2f2;
+}
+
+#tipos {
+    background-color: #010937;
+}
+
+.card {
+    background-color: #0a0c0d;
+    color: #f2f2f2;
+}
+
+.card:hover {
+    padding: 3%;
+    background-color: #f2f2f2;
+    transition: 500ms;
+    color: #0a0c0d;
 }
 
