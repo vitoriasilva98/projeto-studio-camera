@@ -1,6 +1,5 @@
 body {
     font-family: 'Noto Sans', sans-serif;
-    background-color: #0a0c0d;
 }
 
 header {
@@ -9,7 +8,8 @@ header {
 
 #cabecalho .nav .nav-link,
 .navbar-brand,
-.navbar-brand:hover  {
+.navbar-brand:hover,
+.nav-ensaio .nav-link.active:hover  {
     color: white;
 }
 
@@ -22,8 +22,9 @@ header {
     color: #f2f2f2;
 }
 
-.titulo-destaque-colorido {
-    color: #000524;
+.titulo-destaque-colorido,
+.nav-ensaio .nav-link:hover {
+    color: #1c31a5;
 }
 
 .titulo-destaque-colorido-dark {
@@ -34,7 +35,8 @@ header {
     background-color: white;
 }
 
-#cabecalho .nav .nav-link.active {
+#cabecalho .nav .nav-link.active,
+.nav-ensaio .nav-link.active {
     background-color: #1c31a5;
     color: #f2f2f2;
 }
@@ -47,15 +49,22 @@ header {
     background-color: #010937;
 }
 
-.card {
+#tipos .card {
     background-color: #0a0c0d;
     color: #f2f2f2;
 }
 
-.card:hover {
+#tipos .card:hover {
     padding: 3%;
     background-color: #f2f2f2;
     transition: 500ms;
     color: #0a0c0d;
 }
 
+
+#ensaios .card {
+    background-color: #213635;
+    color: #f2f2f2;
+    cursor: zoom-in;
+    padding: 3%;
+}
