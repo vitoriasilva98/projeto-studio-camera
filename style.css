@@ -49,7 +49,8 @@ header {
     background-color: #010937;
 }
 
-#tipos .card {
+#tipos .card,
+#entre-em-contato {
     background-color: #0a0c0d;
     color: #f2f2f2;
 }
@@ -61,10 +62,43 @@ header {
     color: #0a0c0d;
 }
 
-
 #ensaios .card {
     background-color: #213635;
     color: #f2f2f2;
     cursor: zoom-in;
     padding: 3%;
+}
+
+#entre-em-contato i{
+    color: #f2f2f2;
+}
+
+#entre-em-contato form {
+    padding: 3%;
+    background-color: #000;
+    border: 2px solid #f2f2f2;
+    
+}
+
+#entre-em-contato form:hover {
+    transition: 500ms;
+    box-shadow: -15px 20px rgba(242, 242, 242, 0.05);
+}
+
+#entre-em-contato form textarea {
+    resize: none
+}
+
+#entre-em-contato button {
+    color: #f2f2f2;
+    background-color: #348e91;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
 }
